@@ -14,3 +14,5 @@
  + Quick sort
  + Merge sort
  + Heap sort
+
+After downloading repo, running main.c file.
