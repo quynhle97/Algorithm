@@ -11,6 +11,6 @@ int binarySearch(int a[], int N, int x) {
             else right = mid - 1;
         }
     } while (left <= right);
-    return 0;
+    return -1;
 }
 
