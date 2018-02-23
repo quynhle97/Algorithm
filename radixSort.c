@@ -1,3 +1,16 @@
+#include <stdio.h>
+
+void xuatmang(int a[], int N);
+void radixSort(int a[], int N);
+
+int main() {
+    int a[] = {23, 45, 71, 11, 1, 92, 190, 11, 0, 23, 2};
+    int N = sizeof (a)/sizeof (a[0]);
+    radixSort(a, N);
+    xuatmang(a, N);
+    return 0;
+}
+
 void radixSort(int a[], int N) {
     int max=a[0]; // Bien giu gia tri lon nhat cua mang
     int i; // Bien chay trong moi vong lap for
@@ -32,6 +45,19 @@ void radixSort(int a[], int N) {
             a[i] = b[i];
 
         exp*=10;
+        //xuatmang(a, N);
     }
 
+}
+
+void xuatmang(int a[], int N) {
+    printf("-");
+    for (int i=0; i<N; i++) {
+        printf("%6d",i);
+    }
+    printf("\n ");
+    for (int i=0; i<N; i++) {
+        printf("%6d", a[i]);
+    }
+    printf("\n");
 }
