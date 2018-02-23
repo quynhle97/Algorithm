@@ -2,6 +2,7 @@
 - 2 Search
  + Lỉnear search
  + Binary search
+
 - 10 Sort
  + Bubble sort
  + Interchange sort
