@@ -1,12 +1,12 @@
 #include "main.h"
 
 void selectionSort(int a[], int N) {
-    int posmin;
+    int pos;
     for (int i=0; i<N; i++) {
-        posmin = i;
+        pos = i;
         for (int j=i; j<N; j++) {
-            if (a[j] > a[posmin]) posmin = j;
+            if (a[j] > a[pos]) pos = j;
         }
-        swap(&a[posmin], &a[i]);
+        swap(&a[pos], &a[i]);
     }
 }
