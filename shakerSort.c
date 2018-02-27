@@ -1,6 +1,5 @@
 #include "main.h"
 
-// Bien k la mot bien rat thu vi
 // k dong vai tro la bien tam, luu giu gia tri cua lan swap cuoi cung sau vong for, roi thay gia tri left, right cho cac lan tiep theo
 // Bien left va right la 2 cot moc de danh dau vi tri tiep theo de sap xep [left..right]
 
