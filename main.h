@@ -17,3 +17,5 @@ void shellSort2(int a[], int N);
 void shellSort3(int a[], int N, int h[], int k);
 void radixSort(int a[], int N);
 void quickSort(int a[], int left, int right);
+void mergeSort(int a[], int l, int r);
+void merge(int a[], int l, int r, int m);
