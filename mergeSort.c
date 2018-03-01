@@ -1,3 +1,5 @@
+#include "stdio.h"
+
 // ham "merge" : hop nhat cac mang con va luu vao lai mang chinh
 // ham "mergeSort" : phan chia mang thanh cac mang con, 'sap xep' (la so sanh roi chon ra phan tu thich hop) va hop nhat cac mang con do vao mang chinh
 
