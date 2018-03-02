@@ -17,9 +17,9 @@ void mergeSort(int a[], int l, int r) {
 }
 
 void merge(int a[], int l, int r, int m) {
-    // Bien "lup" : so phan ben mang con ben trai
+    // Bien "lup" : so phan tu ben mang con ben trai
     int lup = m - l + 1;
-    // Bien "rup" : so phan ben mang con ben phai
+    // Bien "rup" : so phan tu ben mang con ben phai
     int rup = r - m;
 
     int left[lup], right[rup];
